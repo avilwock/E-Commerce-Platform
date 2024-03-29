@@ -69,9 +69,35 @@ To retreive information, select get in the dropdown menu to the left of the url.
 
 To add information, select post in the dropdown menu. If you wish to add information, it must be presented in the proper format into the json body section.
 
+To add a category name, tag name, or product name, please follow the steps in the video, entering the data as in the following examples:
+
+Products:
+
+![alt text](<images/E-Commerce 5.png>)
+
+Categories:
+
+![alt text](<images/E-Commerce 6.png>)
+
+Tags:
+
+![alt text](<images/E-Commerce 7.png>)
+
+
 To update information, select put in the dropdown menu, and use type in the section you wish to update, for the specific id of the item in that section.
 
 To delete information, select the id number for the section you wish to delete.
+
+
+![alt text](<images/E-Commerce 1.png>) 
+
+![alt text](<images/E-Commerce 2.png>) 
+
+![alt text](<images/E-Commerce 3.png>) 
+
+![alt text](<images/E-Commerce 4.png>)
+
+Video Link: https://drive.google.com/file/d/16CB577ht25nZdmEsxE7SCZ4sH0e6Vot-/view
 
 ## Credits
 

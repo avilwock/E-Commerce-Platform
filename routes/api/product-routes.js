@@ -38,14 +38,7 @@ router.get('/:id', async (req, res) => {
 
 // create new product
 router.post('/', async (req, res) => {
-  /* req.body should look like this...
-    {
-      product_name: "Basketball",
-      price: 200.00,
-      stock: 3,
-      tagIds: [1, 2, 3, 4]
-    }
-  */
+ 
   Product.create(req.body)
     .then((product) => {
       // if there's product tags, we need to create pairings to bulk create in the ProductTag model
@@ -120,8 +113,8 @@ router.delete('/:id', async (req, res) => {
     if (!product) {
       return res.status(404).json({ message: 'Product not Found' });
     }
-    await product.destroy(req.body);
-    res.status(202).end({message: 'Product deleted successfully'});
+    await product.destroy();
+    res.status(202).json({message: 'Product deleted successfully'});
   } catch (err) {
     res.status(500).json(err)
   }
